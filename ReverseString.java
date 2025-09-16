@@ -11,7 +11,8 @@ public class ReverseString {
         //     System.out.print(s[i]);
         // }
 
-        
+        String s=new StringBuilder(a).reverse().toString();
+        System.out.println("Reversed: "+s);
 
         // String s="";
         //  for(int i=a.length()-1; i>=0; i--){
@@ -23,4 +24,4 @@ public class ReverseString {
         
         sc.close();  
     }
-}
+}  
