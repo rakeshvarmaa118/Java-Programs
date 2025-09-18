@@ -8,14 +8,12 @@ public class SumOfNumbers {
         int[] arr=new int[sz];
         int sum=0;
         System.out.print("Enter "+sz+" elements: ");
+
+        
         for(int i:arr){
             arr[i]=scc.nextInt();
-            sum+=i;
+            sum+=arr[i];
         }
-        for(int i:arr){
-            sum+=i;
-        }
-
 
 
         // for(int i=0;i<sz;i++){
